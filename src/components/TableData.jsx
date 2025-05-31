@@ -52,7 +52,7 @@ export default function TableData() {
   }
 
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center bg-blue-50">
       <table className="table-fixed border-1 border-gray-200">
       <thead>
         {headerData.map((item, index) => (
@@ -96,7 +96,7 @@ export default function TableData() {
       {hasMore && (
         <button
           onClick={handleLoadMore}
-          className="mt-4 px-4 py-2 bg-blue-500 text-white rounded "
+          className="mt-4 px-4 py-2 bg-blue-500 text-white rounded cursor-pointer hover:bg-blue-400"
         >Load More</button>
       )}
     </div>
