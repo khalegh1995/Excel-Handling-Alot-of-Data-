@@ -52,7 +52,7 @@ export default function TableData() {
   }
 
   return (
-    <div className="flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center bg-blue-50">
       <table className="table-fixed border-1 border-gray-200">
       <thead>
         {headerData.map((item, index) => (
